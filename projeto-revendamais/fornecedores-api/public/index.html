@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Fornecedores</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/tables.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-building"></i> Sistema de Fornecedores</h1>
+            <p>Gerencie seus fornecedores de forma simples e eficiente</p>
+        </div>
+
+        <div class="content">
+            <nav class="nav">
+                <a href="#" class="nav-item active" data-page="list">
+                    <i class="fas fa-list"></i> Listar Fornecedores
+                </a>
+                <a href="#" class="nav-item" data-page="add">
+                    <i class="fas fa-plus"></i> Adicionar Fornecedor
+                </a>
+                <a href="#" class="nav-item" data-page="search">
+                    <i class="fas fa-search"></i> Buscar CNPJ
+                </a>
+            </nav>
+
+            <div id="page-content">
+                <!-- Conteúdo será carregado dinamicamente -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/api.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
